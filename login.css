@@ -1,200 +1,25 @@
-        * {
-            margin: 0;
-            padding: 0;
-            font-family: Arial;
-            scroll-behavior: smooth;
-        }
+    body{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #1f5c1f;
+    }
+    .login{
+         
+        margin-bottom: px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #589a29;
+        width: 400px;
+        height: 200px;
+       border: 2px solid #ccc;
+        border-radius: 20px;
+        
 
-        body {
-            background: #184418;
-            color: #d4ffd0;
-        }
-
-        /* NAVBAR */
-        nav {
-            background: #334133;
-            padding: 15px 30px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            position: sticky;
-            top: 0;
-            
-        }
-
-        nav .logo {
-            font-size: 22px;
-            font-weight: bold;
-            color: #9be58c;
-        }
-
-        nav ul {
-            display: flex;
-            gap: 30px;
-        }
-
-        nav ul li {
-            list-style: none;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #c4ffb5;
-            font-size: 18px;
-        }
-
-        nav ul li a:hover {
-            color: white;
-        }
-
-        /* SECTIONS */
-        section {
-            padding: 70px 40px;
-            min-height: 100vh;
-        }
-
-        /* HOME SECTION */
-      .home {
-    background: url('https://plus.unsplash.com/premium_photo-1673643405538-de0f82933fcb?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
-    color: #d4e1d1;
-    text-align: center;
-}
-
-
-        .hbox {
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            gap: 20px;
-        }
-
-        .heading {
-            font-size: 36px;
-            font-weight: bold;
-            color: #345d2b;
-        }
-
-        .home-para {
-            color: #455311;
-            font-weight: bold;
-            font-size: 18px;
-        }
-           
-           
-
-        /* ABOUT SECTION DESKTOP FIX */
-        .about-content {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 60px;
-            max-width: 1000px;
-            margin: auto;
-        }
-
-        .about-text {
-            flex: 1;
-            font-size: 18px;
-            line-height: 1.8;
-            color: #dbffd3;
-        }
-
-        .about-h {
-            font-size: 32px;
-            margin-bottom: 20px;
-            color: #afffa4;
-        }
-
-        .about-image {
-            width: 350px;
-            height: 350px;
-            border-radius: 12px;
-            object-fit: cover;
-            flex-shrink: 0;
-        }
-
-        /* EXPLORE SECTION */
-        .explore h2 {
-            font-size: 32px;
-            margin-bottom: 20px;
-            color: #afffa4;
-            text-align: center;
-        }
-
-        .explore-items {
-            display: flex;
-            gap: 30px;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .item-card {
-            background: #122c11;
-            padding: 20px;
-            border-radius: 10px;
-            width: 220px;
-            text-align: center;
-            border: 1px solid #1f3d1a;
-        }
-
-        .item-card h3 {
-            color: #a6ff91;
-            margin-bottom: 10px;
-        }
-
-        .item-card p {
-            color: #dcffd4;
-        }
-
-        /* FOOTER */
-.footer {
-    background: #0f260f;
-    color: #b9ffb0;
-    text-align: center;
-    padding: 25px;
-    font-size: 16px;
-    border-top: 1px solid #1c3a1a;
-}
-
- /* RESPONSIVE DESIGN */
-
-        /* Tablet */
-        @media (max-width: 900px) {
-            nav ul {
-                gap: 15px;
-            }
-
-            .about-content {
-                flex-direction: column;
-                text-align: center;
-            }
-        }
-
-        /* Mobile */
-        @media (max-width: 600px) {
-
-            nav {
-                flex-direction: column;
-                gap: 10px;
-            }
-
-            nav ul {
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-
-            .heading {
-                font-size: 28px;
-            }
-
-            .about-text {
-                font-size: 16px;
-            }
-
-            .item-card {
-                width: 90%;
-                max-width: 300px;
-            }
-        }
+    }
